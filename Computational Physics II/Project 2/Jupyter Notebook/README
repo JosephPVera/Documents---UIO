@@ -1,0 +1,22 @@
+Guided to use the program 
+
+* The nootebook contain different things with which you can play 
+    ** The notebook varing_learning_rate as the name indicated is used mainly 
+    to study the behavior when change the learning rate to minimized the energy,
+    that meaning to find the optimal parameter but also the energy.
+
+        *** It is not the only way you can use, en general you can play with the number
+        Motecarlos cycles, number hidden layes and time step in Metropolis Hastings algorithmo 
+        just varying these for different values  
+    
+    ** The notebook varing_learning_rate_and_satatistic mainly does the same that varing_learning_rate
+    but now it calculate many ssampling for each rearning rate to applay the statistic technique.
+        
+        *** Note: You need to be careful because depent of number samplings it can spend more time. 
+
+    ** The notebook statistic_analysis works to do a beeter estadistic analysis, you can choose
+    between Bootstrap or Blocking statistic techniques and applay to data.
+
+    ** The nootebook creat_many_samplings works to creat many sampling (Monte Carlos experiemntes)
+    with the idea to apply after a statistic analysis, in this you will find hoe you can applay a 
+    statistic between Bootstrap and Blocking
